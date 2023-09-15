@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-size: 40px;
+}
+
+.assi1,
+.assi2,
+.assi3,
+.assi4,
+.assi5,
+.assi6,
+.assi7,
+.assi8 {
+    margin: 20px auto;
+    width: fit-content;
+    padding: 10px;
+}
+ 
+.assi1 div.main.red {
+    color: red;
+    font-weight: bold;
+}
+
+.assi2  > div div:nth-child(2){
+    color: red;
+    font-weight: bold;
+}
+
+ .assi3  .baby:only-child  {
+    color: red;
+    font-weight: bold;
+}
+
+.assi4 > div[title]:not(.no-need) {
+    color: red;
+    font-weight: bold;
+}
+
+.assi5 div:nth-child(2) p + div[title] {
+    color: red;
+    font-weight: bold;
+}
+
+.assi6 div div:nth-last-of-type(2):not(.no-need div:nth-last-of-type(2)) {
+    color: red;
+    font-weight: bold;
+}
+
+.assi7 div:first-child div:nth-last-child(2) {
+    color: red;
+    font-weight: bold;
+}
+
+.assi8 :not(:first-child, h3, :last-child) {
+    color: red;
+    font-weight: bold;
+}

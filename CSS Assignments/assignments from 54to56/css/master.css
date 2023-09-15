@@ -1,0 +1,88 @@
+.assi1::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0%;
+    height: 5px;
+    background-color: black;
+    background-image: linear-gradient(to right,
+    tomato 20%,
+    #03a9f4 20%,
+    #03a9f4 40%,
+    #7ed975e3 40%,
+    #7ed975e3 60%,
+    #f052d0eb 60%,
+    #f052d0eb 80%,
+    #a13acd 80%);
+}
+
+.assi1 {
+    width: 600px;
+    margin: 20px auto;
+    background-color: #eee;
+    padding: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    border-left: tomato solid 5px;
+    border-right: #a13acd solid 5px;
+    font-weight: bold;
+    position: relative;
+}
+
+.assi1::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0%;
+    height: 5px;
+    background-color: black;
+    background-image: linear-gradient(to right,
+    tomato 20%,
+    #03a9f4 20%,
+    #03a9f4 40%,
+    #7ed975e3 40%,
+    #7ed975e3 60%,
+    #f052d0eb 60%,
+    #f052d0eb 80%,
+    #a13acd 80%);
+}
+
+.assi1::first-letter {
+    color: tomato;
+}
+
+.assi2 div{
+    position: relative;
+    border: none;
+    outline: none;
+    background-color: #eee;
+    margin: 20px auto;
+    padding: 20px;
+    width: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.assi2 div::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    bottom: -5px;
+    height: 5px;
+    background-color: black;
+    background-image: linear-gradient(to right,
+    tomato 50%,
+    #009688 50%);
+}
+
+.one {
+     caret-color: red;
+}
+
+.two,
+.three {
+    color:  #a69e9e;
+}

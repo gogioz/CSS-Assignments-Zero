@@ -1,0 +1,181 @@
+  .one .green,
+  .one .red,
+  .one .blue,
+  .one .black {
+      padding: 30px 30px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+  }    
+
+.one .green {
+    background-color: #009688;
+    z-index: 3;
+    top: 30px;
+    left: 30px;
+}
+
+.one .red {
+    background-color: #f44336;
+    z-index: 4;
+    top: 40px;
+    left: 40px;
+}
+
+.one .blue {
+    background-color: #03a9f4;
+    z-index: 2;
+    top: 20px;
+    left: 20px;
+}
+
+ .one .black {
+    background-color: #333333;
+    z-index: 1;
+    top: 30px;
+    left: 20px;
+}
+
+ .two {
+    text-align: center;
+    margin:  250px auto;
+    line-height: 25px;
+    position: sticky;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+    background-color: #eee;
+    padding: 20px 20px;
+    border: 3px solid;
+    border-color: #ff3333 dodgerblue #ff3333 dodgerblue;
+}
+
+.two .top-left,
+.two .bottom-left,
+.two .top-right,
+.two .bottom-right {
+    position: absolute;
+    width: 30;
+    height: 25px;
+    color: white;
+}
+
+.two .top-left {
+    background-color: dodgerblue;
+     border-right: 3px solid #ff3333;
+    top: -14px;
+    left: -18px;
+}
+
+.two .bottom-left {
+    background-color: dodgerblue;
+     border-right: 3px solid #ff3333;
+    bottom: -11px;
+    left: -18px;
+}
+
+.two .top-right {
+    background-color: dodgerblue;
+     border-left: 3px solid #ff3333;
+   top: -14px;
+    right: -18px;
+}
+
+.two .bottom-right {
+    background-color: dodgerblue;
+    border-left: 3px solid #ff3333;
+    right: -18px;
+    bottom: -11px;
+} 
+
+.parent {
+    font-family: Arial, Helvetica, sans-serif;
+    margin:  50 auto;
+    width: 400px;
+}
+img {
+    width: 70px;
+    height: 70px;
+}
+
+.parent .list1 {
+    list-style-type: none;
+    margin: 10px 10px;
+    background-color: #eee;
+    padding: 10px;
+}
+
+.parent .list1 ol li {
+    padding: 10px;
+    margin: 10px 10px;
+    background-color: white;
+}
+
+.parent .list2 {
+    list-style-type: none;
+    margin: 10px 10px;
+    background-color: #eee;
+    padding: 10px;
+}
+
+.parent .list2 ol li {
+    padding: 10px;
+    margin: 10px 10px;
+    background-color: white;
+}
+
+.parent .list3 {
+    list-style-type: none;
+    margin: 10px 10px;
+    background-color: #eee;
+    padding: 10px;
+}
+
+.parent .list3 ul li {
+    list-style: inside;
+    list-style-type: circle;
+    padding: 10px;
+    margin: 10px 10px;
+    background-color: white;
+} 
+
+table {
+    margin: auto;
+    border-spacing: 1px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 700px;
+    border-bottom: 2px solid darkcyan;
+}
+
+h3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table td {
+    padding: 10px;
+    background-color:#eee;   
+}
+
+thead td {
+    background-color: black;
+    color: white;
+}
+
+tr td .view,
+tr td .delete {
+    width: 60px;
+    height: 30px;
+    border-style: none;
+    color: white;
+    font-weight: bold;
+
+}
+
+tr td .view {
+    background-color: dodgerblue;
+}
+
+tr td .delete {
+    background-color: #e91f63;
+}

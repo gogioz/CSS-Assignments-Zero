@@ -1,0 +1,261 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.assi1 {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    color: #ff5b00;
+    font-weight: bold;
+    box-shadow: 5px 0 0 #ff5b00,
+    -5px 0 0 #1e90ffb3;
+}
+
+.assi2 {
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    background-color: #eee;
+    display: flex;
+    align-content: space-between;
+    flex-flow: row wrap;
+}
+
+.assi2 div {
+    width: 30%;
+    background-color: #ff0000c4;
+    margin: 10px;
+    padding: 10px 10px;
+    color: white;
+    text-align: center;
+}
+
+.assi3 {
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    background-color: #eee;
+    display: flex;
+    align-content: space-between;
+    flex-flow: row wrap;
+}
+
+.assi3 div {
+    background-color: #6b8193;
+    width: 30%;
+    text-align: center;
+    color: white;
+}
+
+.assi3 .one {
+    order: 6;
+    margin: 0px 10px 10px 10px;
+    height: 50px;
+    line-height: 50px;
+    align-self: flex-end;
+}
+
+.assi3 .two {
+    order: 5;
+     margin: 0px 10px 10px 10px;
+      height: 130px;
+      line-height: 130px;
+}
+
+.assi3 .three {
+    order: 2;
+    margin: 10px 10px 0 10px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.assi3 .four {
+    order: 3;
+    margin: 10px 10px 0 10px;
+    height: 150px;
+    line-height: 150px;
+}
+
+.assi3 .five {
+    order: 4;
+    margin: 0px 10px 10px 10px;
+     height: 130px;
+    line-height: 130px;
+}
+
+.assi3 .six {
+    order: 1;
+    margin: 10px 10px 0 10px;
+    height: 150px;
+    line-height: 150px;
+}
+
+.assi4 {
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    background-color: #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-flow: column wrap;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.assi4 .first,
+.assi4 .third {
+    background-color: #268e88;
+    width: 30px;
+    height: 80px;
+    line-height: 80px;
+}
+
+.assi4 .second {
+    background-color: #268e88;
+    width: 300px;
+    height: 80px;
+    line-height: 80px;
+    align-self: flex-start;
+}
+
+.assi5 {
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    background-color: #eee;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    color: white;
+    text-align: center;
+}
+
+.assi5 div {
+    width: 100px;
+    height: 150px;
+    margin: 10px;
+    line-height: 150px;
+}
+
+.assi5 .a {
+    background-color: orange;
+    order: 2;
+   
+}
+
+.assi5 .b {
+    background-color: #8bc34a;
+    order: 3;
+     align-self: flex-end;
+}
+
+.assi5 .c {
+    background-color: #7c503b;
+    order: 4;
+}
+
+.assi5 .d {
+    background-color: #6300acde;
+    order: 1;
+    align-self: flex-end;
+}
+
+:root {
+    --mainColor: #eee;
+    --mainContainer: #DDDDDD;
+    --mainPadding: 10px;
+}
+
+.page {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-flow: row wrap;
+    height: fit-content;
+    background-color: var(--mainColor);
+    padding: var(--mainPadding);
+    width: 1000px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo, .links, .content, .sidebar, .copyright, .design {
+    background-color: var(--mainContainer);
+    padding: var(--mainPadding);
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    width: 85%;
+    justify-content: flex-end;
+    margin: 0%;
+}
+
+ul li {
+    margin-right: 2%;
+}
+
+.logo {
+    text-align: center;
+    width: 14%;
+}
+
+.main-area {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding:  10px 0 10px 0;
+}
+
+.content {
+    width: 60%;
+}
+
+.sidebar {
+    width: 39%;
+}
+
+.content,
+.sidebar {
+    height: 300px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.copyright,
+.design {
+    width: 50%;
+}
+
+.design {
+    text-align: end;
+}

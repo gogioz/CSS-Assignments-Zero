@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.assi1::before {
+    content: counter(counter);
+    position: absolute;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    line-height: 20px;
+    text-align: center;
+    left: 40%;
+    top: -10px;
+}
+
+.assi1{
+    counter-increment: counter;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: #eee;
+    margin: 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    line-height: 100px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 
+    5px 5px 0 0 #03a9f4,
+    -5px -5px 0 0 #e91f63;
+    position: relative;
+}
+
+.assi2 {
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    background-color: #eeeeee;
+    box-shadow: 0 0 10px 0px #000000d9 inset;
+    border-radius: 15px 50px 15px 50px;
+    -webkit-border-radius: 15px 50px 15px 50px;
+    -moz-border-radius: 15px 50px 15px 50px;
+    -ms-border-radius: 15px 50px 15px 50px;
+    -o-border-radius: 15px 50px 15px 50px;
+}
+ .assi3 {
+     width: 550px;
+     padding: 20px;
+    box-sizing: border-box;
+    margin: auto;
+    text-align: center;
+ }
+
+ .assi3 .one::after {
+     content: "";
+     position: absolute;
+     border: 1px solid #03a8f4e7;
+    height: 260px;
+    top: 0px;
+    right: -30px;
+ }
+
+ .assi3 .two::before {
+     content: "or";
+     position: absolute;
+    border: 6px solid #03a8f4e7;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    top: 110px;
+    right: 210px;
+    background-color: #03a8f4e7;
+}
+
+ .assi3 .one,
+ .assi3 .two {
+    background-color: #eee;
+    width: 200px;
+    height: 260px;
+    display: inline-block;
+    margin-right: 50px;
+    position: relative;
+ }
+  
+.assi3 .one .basic,
+.assi3 .two .pro {
+   line-height: 50px;
+    height: 50px;
+    background-color: #03a8f4e7;
+    margin: 20px auto;
+    width: 170px;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.assi3 .one .free,
+.assi3 .two .cash {
+    width: 150px;
+    height: 150px;
+    background-color: #ddd;
+    margin: 20px auto;
+    line-height: 150px;
+    border-radius: 50%;
+    font-weight: bold;
+}
+

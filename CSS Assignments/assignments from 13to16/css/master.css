@@ -1,0 +1,42 @@
+.child .title {
+    color: red;
+}
+ div .title {
+  color: blue;
+}
+div p,
+.title {
+  color: green;
+}
+.d1 {
+    background-color: darkred;
+    width: fit-content;
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+}
+.d2 {
+    background-color: darkred;
+    width: fit-content;
+     max-width: 400px;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+}
+.d3 {
+    background-color: darkred;
+    width: fit-content;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+}
+.d4 {
+    background-color: darkred;
+    max-width: 400px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    overflow: hidden;
+    color: white;
+}

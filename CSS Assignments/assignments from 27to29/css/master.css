@@ -1,0 +1,67 @@
+.parent {
+    background-color: #eee;
+   width: 1000px;
+}
+
+.first,
+.second div,
+.third div,
+.fourth div {
+    background-color: #ddd;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    float: left;
+}
+
+.first {
+    width: calc((100%  - 30px)/1);
+    margin-top: 15px;
+}   
+
+.second  div {
+    width: calc((100% - 60px) /3);
+}
+
+.third div {
+    width: calc((100% - 45px) /2);
+}
+
+.fourth div {
+    width: calc((100% - 75px) /4);
+}
+
+.clear {
+    clear: both;
+}
+
+.assig2 {
+  margin: 20px auto;
+  width: 300px;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 20px;
+  color: black;
+}
+
+.assig2 .normal {
+    background-color: blue;
+    padding: 10px;
+    margin: 10px;
+}
+
+.assig2 .one {
+    padding: 10px;
+    margin: 10px;
+background-color: rgb(0, 0, 255, 0.1);
+}
+
+.assig2 .two {
+    padding: 10px;
+    margin: 10px;
+background-color: blue;
+opacity: 0.1;    
+}
+
